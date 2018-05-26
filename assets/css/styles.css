@@ -1,3 +1,6 @@
+
+/*official colors: #fefea5 - yellow , #55195e - purple*/
+
 .navbar{
   margin-bottom:0;
   border:none;
@@ -19,8 +22,8 @@
 
 .nav li{
   margin-top: 60px;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 5px;
+  padding-right:5px;
 }
 
 .navbar-brand span {
@@ -64,119 +67,32 @@
 }
 
 
+
+/*============================ABOUT SECTION===================================*/
+
+.btn-read-more {
+  background-color: transparent;
+  border: 2px solid #fefea5; 
+  border-radius: 15px;
+  text-decoration-color: #fefea5;
+  padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
     /*==================================BLOG SECTION=====================================================*/
   }
 
+.about {
 
-  .blog-title h1 {
-    font-family: 'Oswald', sans-serif;
-    word-wrap: break-word;
-    font-size: 20px;
-    letter-spacing: 5px;
-    line-height: 1.25;
-    text-align: center;
-  }
+  padding: 500px;
+}
 
-  .blog-title h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
-    word-wrap: break-word;
-    padding-bottom:30px;
-    font-size: 12px;
-    letter-spacing: 5px;
-    line-height: 1.25;
-    text-align: center;
-  }
-
-
-  .blog-content h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 13px;
-    text-align: left;
-    letter-spacing: 2px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-  }
-
-  .social-media h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    text-align: center;
-
-  }
-
-  .about-me h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    text-align: center;
-  }
-
-  .about-me h2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    text-align: center;
-  }
-  .about-me h3{
-    font-family: 'Oswald', sans-serif;
-    font-size: 11px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right:10px;
-  }
-
-  .posts h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    text-align: center;
-  }
-
-  .single-post-1 h2 {
-   font-family: 'Oswald', sans-serif;
-   font-size: 11px;
-   text-align: center;
-   letter-spacing: 2px;
-   font-weight: lighter;
-   padding-bottom: 10px;
-   text-align: center;
-   padding-left: 10px;
-   padding-right:10px;
+ .about-logo {
 
  }
-
- .single-post-2 h2 {
-   font-family: 'Oswald', sans-serif;
-   font-size: 11px;
-   text-align: center;
-   letter-spacing: 2px;
-   font-weight: lighter;
-   padding-bottom: 10px;
-   text-align: center;
-   padding-left: 10px;
-   padding-right:10px;
-
- }
-
 
 
