@@ -1,7 +1,7 @@
 
 /*official colors: #fefea5 - yellow , #55195e - purple*/
 
-.navbar{
+/*.navbar{
   margin-bottom:0;
   border:none;
   font-family: 'Oswald', sans-serif;
@@ -43,7 +43,7 @@
 .navbar-brand-title hr {
 
   margin:0px;
-}
+}*/
 /*============================HEADER SECTION===================================*/
 .header-content h1 {
   padding-top: 25px;
@@ -76,23 +76,106 @@
   border-radius: 15px;
   text-decoration-color: #fefea5;
   padding: 15px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
 
+/*==================================EVENT SECTION=====================================================*/
+.home-event-container-title h1 {
+font-size: 30px;
+  margin-bottom: 0px;
+
+}
+.home-event-container-title h3 {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.home-news-container-title h1 {
+font-size: 30px;
+  margin-bottom: 0px;
+
+}
+.home-news-container-title h3 {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.event-container-body-img{
+  padding-top: 30px;
+}
+
+.event-title {
+  font-family: 'Oswald', sans-serif;
+  color: #55195e;
 
 }
 
-    /*==================================BLOG SECTION=====================================================*/
-  }
-
-.about {
-
-  padding: 500px;
+.event-title h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
- .about-logo {
+.event-title h3 {
+  font-size: 15px;
+  margin-top: 0px;
+}
 
- }
+.events hr {
+  margin:0px;
+  background-color: #fefea5;
+  height:1px;
+  background-color: red;
+}
+
+/*==================================NEWS SECTION=====================================================*/
+
+.news-img {
+  margin: 50px;
+}
+.news-card {
+  padding: 20px;
+}
+
+.news-section{
+
+  padding: 20px;
+}
+.index-new-img{
+object-fit: contain;
+height:250px;
+}
+
+.news-container-body-img{
+  padding-top: 30px;
+}
 
 
+.news-title {
+  font-family: 'Oswald', sans-serif;
+  color: #55195e;
+
+}
+.news-title h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.news-title h3 {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+
+
+.home-news-container-title h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.home-news-container-title h3 {
+   font-size: 15px;
+  margin-top: 0px;
+}
