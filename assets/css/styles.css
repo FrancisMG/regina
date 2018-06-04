@@ -1,4 +1,47 @@
 
+body {
+font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.navbar-brand span{
+  font-size:2rem;
+  line-height:1.2;
+  font-weight: 200;
+  font-size: 25px;
+  display:inline-block;
+  vertical-align:middle;
+  padding:60px 0 0 15px;
+  letter-spacing: 1px;
+   color: #333333;
+}
+
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+   color: #333333;
+
+}
+
+.navbar-image{
+  padding-top: 20px;
+}
+
+ .navbar-nav li {
+  padding-right: 20px;
+
+ }
+
+ .navbar-nav li a {
+  font-weight: 200;
+font-family: 'Oswald', sans-serif;
+
+  font-size: 14px;
+ }
+.navbar-nav a:hover {
+  background-color: #461251;
+  color: white !important;
+}
 /*official colors: #fefea5 - yellow , #55195e - purple*/
 
 /*.navbar{
@@ -53,7 +96,8 @@
   letter-spacing: 10px;
   line-height: 1.25;
   padding-top: 200px;
-}
+   color: #333333;
+  }
 
 .header-content h2 {
   padding-top: 25px;
@@ -63,6 +107,7 @@
   letter-spacing: 10px;
   line-height: 1.25;
   padding-top: 25px;
+    color: #333333;
 
 }
 
@@ -72,36 +117,47 @@
 
 .btn-read-more {
   background-color: transparent;
-  border: 2px solid #fefea5; 
-  border-radius: 15px;
-  text-decoration-color: #fefea5;
+  border: none;
+  color: #461251;
   padding: 15px 15px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
 }
 
+.btn-read-more:hover {
+
+  color: white;
+  background-color:#461251;}
+
 /*==================================EVENT SECTION=====================================================*/
 .home-event-container-title h1 {
 font-size: 30px;
-  margin-bottom: 0px;
+margin-bottom: 0px;
+ color: #333333;
 
 }
 .home-event-container-title h3 {
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 50px;
+    color: #333333;
+
 }
 .home-news-container-title h1 {
 font-size: 30px;
   margin-bottom: 0px;
+    color: #333333;
 
 }
 .home-news-container-title h3 {
+
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 50px;
+    color: #333333;
 }
+
 
 .event-container-body-img{
   padding-top: 30px;
@@ -109,16 +165,18 @@ font-size: 30px;
 
 .event-title {
   font-family: 'Oswald', sans-serif;
-  color: #55195e;
+   color: #333333;
 
 }
 
 .event-title h1 {
   font-size: 30px;
+   color: #333333;
   margin-bottom: 0px;
 }
 
 .event-title h3 {
+   color: #333333;
   font-size: 15px;
   margin-top: 0px;
 }
@@ -154,28 +212,33 @@ height:250px;
 
 
 .news-title {
+   color: #333333;
   font-family: 'Oswald', sans-serif;
-  color: #55195e;
+  color: #333333;
 
 }
 .news-title h1 {
   font-size: 30px;
   margin-bottom: 0px;
+   color: #333333;
 }
 
 .news-title h3 {
   font-size: 15px;
   margin-top: 0px;
+   color: #333333;
 }
 
 
 
 .home-news-container-title h1 {
   font-size: 30px;
+   color: #333333;
   margin-bottom: 0px;
 }
 
 .home-news-container-title h3 {
    font-size: 15px;
+    color: #333333;
   margin-top: 0px;
 }
