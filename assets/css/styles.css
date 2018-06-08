@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "Angelican";
+  src: url("../fonts/AnglicanText.woff") format("woff");
+}
 
 body {
 font-family: 'Oswald', sans-serif;
@@ -8,12 +12,13 @@ font-family: 'Oswald', sans-serif;
   font-size:2rem;
   line-height:1.2;
   font-weight: 200;
-  font-size: 25px;
+  font-size: 30px;
   display:inline-block;
   vertical-align:middle;
-  padding:60px 0 0 15px;
-  letter-spacing: 1px;
-   color: #333333;
+  padding: 55px 0 0 15px;
+  letter-spacing: 2px;
+   color: #2c0032;
+   font-family: 'Angelican', sans-serif;
 }
 
 .navbar {
@@ -40,53 +45,9 @@ font-family: 'Oswald', sans-serif;
  }
 .navbar-nav a:hover {
   background-color: #461251;
-  color: white !important;
-}
-/*official colors: #fefea5 - yellow , #55195e - purple*/
-
-/*.navbar{
-  margin-bottom:0;
-  border:none;
-  font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  font-size: 15px;
-  padding-bottom: 90px;
+  color: #d79b2a !important;
 }
 
-.navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.nav li{
-  margin-top: 60px;
-  padding-left: 5px;
-  padding-right:5px;
-}
-
-.navbar-brand span {
-  display: inline;
-  display: inline-block;
-  padding-left: 20px;
-}
-.navbar .navbar-brand img {
-  display: inline-block;
-}
-
-.navbar-brand-title {
-
-  margin-top: 60px;
-}
-
-.navbar-brand-title hr {
-
-  margin:0px;
-}*/
 /*============================HEADER SECTION===================================*/
 .header-content h1 {
   padding-top: 25px;
@@ -111,7 +72,15 @@ font-family: 'Oswald', sans-serif;
 
 }
 
+/*============================ACHIEVEMENT SECTION===================================*/
 
+
+.achiver-header h1 {
+  font-size: 40px;
+     letter-spacing: 2px;
+   color: #2c0032;
+   font-family: 'Angelican', sans-serif;
+}
 
 /*============================ABOUT SECTION===================================*/
 
@@ -126,8 +95,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .btn-read-more:hover {
-
-  color: white;
+  color: #d79b2a;
   background-color:#461251;}
 
 /*==================================EVENT SECTION=====================================================*/
