@@ -49,21 +49,30 @@
 
 
 <section>
-  <div class="container">
+  <div class="container" style="padding: 50px;" align="center">
     
-<h2>Send e-mail to someone@example.com:</h2>
-
+<div class="container">
+  <span class="d-inline-block">
+           <hr style=" padding-right: 400px; display: inline-block; margin-right: 20px; margin-top: 100px; border-width: 2px; background-color: #d79b2a">
+           <img src="assets/img/logo.png" style="display: inline-block;  margin-bottom: 40px;"> 
+           <hr style=" padding-right: 400px; display: inline-block; margin-left:20px; margin-top: 100px; border-width: 2px; background-color: #d79b2a"></span>
+</div>
+<data class="container form" style="padding-top: 20px;"> 
 <form action="mailto:francisgonzales.private@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+Name<br>
+<input type="text"  class ="form-control" name="name" size="10" required="true" style="width:50%;"><br>
+E-mail<br>
+<input type="text"  class ="form-control" name="mail" size="10" required="true" style="width:50%;" ><br>
+Inquiry<br>
+ <textarea name="message" class ="form-control" required="true" style="width:50%; height:300px;"></textarea><br><br>
+<input  class ="form-control"  type="submit" value="Send" style="width:50%; margin-bottom: 20px;" >
+<input  class ="form-control"  type="reset" value="Reset" style="width:50%;">
 </form>
+</data>
 
+
+<!-- <hr style="padding-right: 400px;  display: inline-block; margin-right: 20px; margin-top: 100px; border-width: 2px; background-color: #d79b2a"> -->
+<hr style="border-width: 2px; background-color: #d79b2a; ">
   </div>
 </section>
 <footer>
