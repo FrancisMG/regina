@@ -4,7 +4,7 @@
 }
 
 body {
-font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 200;
 }
 
@@ -17,14 +17,14 @@ font-family: 'Oswald', sans-serif;
   vertical-align:middle;
   padding: 55px 0 0 15px;
   letter-spacing: 2px;
-   color: #2c0032;
-   font-family: 'Angelican', sans-serif;
+  color: #2c0032;
+  font-family: 'Angelican', sans-serif;
 }
 
 .navbar {
   padding-left: 30px;
   padding-right: 30px;
-   color: #333333;
+  color: #333333;
 
 }
 
@@ -32,17 +32,17 @@ font-family: 'Oswald', sans-serif;
   padding-top: 20px;
 }
 
- .navbar-nav li {
+.navbar-nav li {
   padding-right: 20px;
 
- }
+}
 
- .navbar-nav li a {
+.navbar-nav li a {
   font-weight: 200;
-font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 
   font-size: 14px;
- }
+}
 .navbar-nav a:hover {
   background-color: #461251;
   color: #d79b2a !important;
@@ -57,8 +57,8 @@ font-family: 'Oswald', sans-serif;
   letter-spacing: 10px;
   line-height: 1.25;
   padding-top: 200px;
-   color: #333333;
-  }
+  color: #333333;
+}
 
 .header-content h2 {
   padding-top: 25px;
@@ -68,20 +68,28 @@ font-family: 'Oswald', sans-serif;
   letter-spacing: 10px;
   line-height: 1.25;
   padding-top: 25px;
-    color: #333333;
+  color: #333333;
 
 }
 
 /*============================ACHIEVEMENT SECTION===================================*/
 
 
-.achiver-header h1 {
+.achiver-header p {
+  margin-top: 0px;
   font-size: 40px;
-     letter-spacing: 2px;
-   color: #2c0032;
-   font-family: 'Angelican', sans-serif;
+  letter-spacing: 2px;
+  color: #2c0032;
+  font-family: 'Angelican', sans-serif;
 }
 
+.home-event-header p {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #2c0032;
+  font-family: 'Angelican', sans-serif;
+
+}
 /*============================ABOUT SECTION===================================*/
 
 .btn-read-more {
@@ -91,31 +99,38 @@ font-family: 'Oswald', sans-serif;
   padding: 15px 15px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 
 .btn-read-more:hover {
   color: #d79b2a;
-  background-color:#461251;}
+  border: 2px solid #d79b2a; /* Green */
+  font-family: 'Oswald', sans-serif;
+  
+  font-size: 20px;
+
+}
 
 /*==================================EVENT SECTION=====================================================*/
 .home-event-container-title h1 {
-font-size: 30px;
-margin-bottom: 0px;
- color: #333333;
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #333333;
 
 }
 .home-event-container-title h3 {
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 50px;
-    color: #333333;
+  color: #333333;
 
 }
 .home-news-container-title h1 {
-font-size: 30px;
+  font-size: 30px;
   margin-bottom: 0px;
-    color: #333333;
+  color: #333333;
 
 }
 .home-news-container-title h3 {
@@ -123,7 +138,7 @@ font-size: 30px;
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 50px;
-    color: #333333;
+  color: #333333;
 }
 
 
@@ -133,29 +148,42 @@ font-size: 30px;
 
 .event-title {
   font-family: 'Oswald', sans-serif;
-   color: #333333;
+  color: #333333;
 
 }
 
 .event-title h1 {
   font-size: 30px;
-   color: #333333;
+  color: #333333;
   margin-bottom: 0px;
 }
 
 .event-title h3 {
-   color: #333333;
-  font-size: 15px;
-  margin-top: 0px;
+ color: #333333;
+ font-size: 15px;
+ margin-top: 0px;
 }
 
 .events hr {
   margin:0px;
-  background-color: #fefea5;
   height:1px;
-  background-color: red;
+  background-color: #d79b2a;
 }
 
+.event-title h1 {
+    font-size: 40px;
+  letter-spacing: 2px;
+  color: #2c0032;
+  font-family: 'Angelican', sans-serif;
+  
+}
+.event-title h3 {
+    font-size: 18px;
+  letter-spacing: 2px;
+  color: #2c0032;
+  font-family: 'Angelican', sans-serif;
+  
+}
 /*==================================NEWS SECTION=====================================================*/
 
 .news-img {
@@ -170,8 +198,8 @@ font-size: 30px;
   padding: 20px;
 }
 .index-new-img{
-object-fit: contain;
-height:250px;
+  object-fit: contain;
+  height:250px;
 }
 
 .news-container-body-img{
@@ -180,33 +208,143 @@ height:250px;
 
 
 .news-title {
-   color: #333333;
-  font-family: 'Oswald', sans-serif;
-  color: #333333;
+ color: #333333;
+ font-family: 'Oswald', sans-serif;
+ color: #333333;
 
 }
 .news-title h1 {
   font-size: 30px;
   margin-bottom: 0px;
-   color: #333333;
+  color: #333333;
 }
 
 .news-title h3 {
   font-size: 15px;
   margin-top: 0px;
-   color: #333333;
+  color: #333333;
 }
 
 
 
 .home-news-container-title h1 {
   font-size: 30px;
-   color: #333333;
+  color: #333333;
   margin-bottom: 0px;
 }
 
 .home-news-container-title h3 {
-   font-size: 15px;
-    color: #333333;
-  margin-top: 0px;
+ font-size: 15px;
+ color: #333333;
+ margin-top: 0px;
 }
+
+
+
+.footer-header h4 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #d79b2a;
+  font-family: 'Angelican', sans-serif;
+}
+
+.footer-header h5 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #d79b2a;
+  font-family: 'Angelican', sans-serif;
+}
+
+.card-img:hover{
+ transform: scale(1.1);
+ transition-delay: 10;
+}
+
+
+.news1 {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  padding-bottom: 50px;
+
+
+}
+
+
+.image{
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+
+}
+
+
+.overlay{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: #461251;/* Black see-through */
+  color: #f1f1f1; 
+  width: 250px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.news1:hover .overlay {
+  opacity: 1;
+}
+
+.view-more-event h2 {
+
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #d79b2a;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 25%;
+
+}
+
+.navbar-footer span p {
+  font-family: 'Oswald', sans-serif;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block; 
+  margin-bottom: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.navbar-footer span p:hover {
+  font-family: 'Oswald', sans-serif;
+  color:#d79b2a;
+}
+
+.footer-community h2 {
+  font-family: 'Angelican', sans-serif;
+  color:#d79b2a;
+  letter-spacing: 2px;
+}
+
+.footer-community span p {
+  font-family: 'Oswald', sans-serif;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block; 
+  margin-bottom: 20px;
+  color: white;
+  font-size: 12px;
+}
+.footer-community span p:hover{
+  font-family: 'Oswald', sans-serif;
+  color:#d79b2a;
+}
+
+.event-title {
+  text-align: center;
+}
+
