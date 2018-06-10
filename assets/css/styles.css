@@ -265,7 +265,9 @@ body {
   position: relative;
   width: 100%;
   max-width: 250px;
+
   padding-bottom: 50px;
+
 
 
 }
@@ -273,10 +275,8 @@ body {
 
 .image{
   display: block;
-  width: 250px;
   height: 250px;
-  background-size: cover;
-
+  width: 250px;
 }
 
 
@@ -344,7 +344,34 @@ body {
   color:#d79b2a;
 }
 
-.event-title {
+.index-event-title {
   text-align: center;
 }
 
+
+.index-news-title {
+  font-size: 15px;
+  text-overflow: ellips
+  font-family: 'Oswald', sans-serif;is;
+  text-align: justify;
+  padding-bottom: 5px;
+}
+.index-news-card {
+  height: 300px;
+}
+
+.btn-read-news {
+  background-color: transparent;
+  color:#2c0032;
+  font-size: 20px;
+}
+
+.btn-read-news:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color:#d79b2a;
+  border: 2px solid #d79b2a;
+  
+
+
+}
