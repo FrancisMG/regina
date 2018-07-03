@@ -8,6 +8,10 @@ body {
   font-weight: 200;
 }
 
+
+
+/*============================NAVBAR SECTION===================================*/
+
 .navbar-brand span{
   font-size:2rem;
   line-height:1.2;
@@ -45,10 +49,24 @@ body {
 }
 .navbar-nav a:hover {
   background-color: #461251;
-  color: #d79b2a !important;
+  color:#FFD700 !important;
+}
+
+.navbar-brand hr {
+  margin:0px;
+  color:#d79b2a;
+}
+
+.navbar h1 {
+font-size: 25px;
 }
 
 /*============================HEADER SECTION===================================*/
+.header-content {
+  padding-bottom: 50px;
+  align-items: center;
+}
+
 .header-content h1 {
   padding-top: 25px;
   font-family: 'Oswald', sans-serif;
@@ -92,6 +110,30 @@ body {
 }
 /*============================ABOUT SECTION===================================*/
 
+.about-container {
+padding-top: 50px;
+}
+.about-header {
+text-align: center;
+}
+
+.about-header hr {
+padding-right: 400px;
+ display: inline-block;
+ margin-right: 20px;
+  margin-top: 100px;
+  border-width: 2px;
+  background-color: #d79b2a;
+}
+.about-header img {
+ display: inline-block;
+ margin-bottom: 40px;
+}
+
+.sentence {
+text-indent: 50px;
+text-align: justify;
+}
 .btn-read-more {
   background-color: transparent;
   border: none;
@@ -105,15 +147,17 @@ body {
 }
 
 .btn-read-more:hover {
-  color: #d79b2a;
-  border: 2px solid #d79b2a; /* Green */
+  color: 	#FFD700;
+  border: 2px solid 	#FFD700;
   font-family: 'Oswald', sans-serif;
-  
   font-size: 20px;
 
 }
 
 /*==================================EVENT SECTION=====================================================*/
+.news-body-content {
+  padding-top: 50px;
+}
 .home-event-container-title h1 {
   font-size: 30px;
   margin-bottom: 0px;
@@ -175,14 +219,14 @@ body {
   letter-spacing: 2px;
   color: #2c0032;
   font-family: 'Angelican', sans-serif;
-  
+
 }
 .event-title h3 {
     font-size: 18px;
   letter-spacing: 2px;
   color: #2c0032;
   font-family: 'Angelican', sans-serif;
-  
+
 }
 /*==================================NEWS SECTION=====================================================*/
 
@@ -212,6 +256,12 @@ body {
  font-family: 'Oswald', sans-serif;
  color: #333333;
 
+
+}
+
+.news-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .news-title h1 {
   font-size: 30px;
@@ -244,14 +294,14 @@ body {
 .footer-header h4 {
   font-size: 35px;
   letter-spacing: 2px;
-  color: #d79b2a;
+  color: 	#FFD700;
   font-family: 'Angelican', sans-serif;
 }
 
 .footer-header h5 {
   font-size: 25px;
   letter-spacing: 2px;
-  color: #d79b2a;
+  color: 	#FFD700;
   font-family: 'Angelican', sans-serif;
 }
 
@@ -281,11 +331,11 @@ body {
 
 
 .overlay{
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   background: rgb(0, 0, 0);
   background: #461251;/* Black see-through */
-  color: #f1f1f1; 
+  color: #f1f1f1;
   width: 250px;
   transition: .5s ease;
   opacity:0;
@@ -313,7 +363,7 @@ body {
   font-family: 'Oswald', sans-serif;
   padding-left: 3px;
   padding-right: 3px;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 20px;
   color: white;
   font-size: 12px;
@@ -334,7 +384,7 @@ body {
   font-family: 'Oswald', sans-serif;
   padding-left: 3px;
   padding-right: 3px;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 20px;
   color: white;
   font-size: 12px;
@@ -370,8 +420,8 @@ body {
   background-color: transparent;
   text-decoration: none;
   color:#d79b2a;
-  border: 2px solid #d79b2a;
-  
+  border: 2px solid #FFD700;
+
 
 
 }
