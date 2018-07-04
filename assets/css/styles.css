@@ -3,8 +3,29 @@
   src: url("../fonts/AnglicanText.woff") format("woff");
 }
 
+
+@font-face{
+  font-family: "BodoniNormal";
+  src: url("../fonts/BodoniFLF-Roman.woff") format("woff");
+}
+
+@font-face{
+  font-family: "BodoniItalic";
+  src: url("../fonts/BodoniFLF-BoldItalic.woff") format("woff");
+}
+
+@font-face{
+  font-family: "BodoniBold";
+  src: url("../fonts/BodoniFLF-Bold.woff") format("woff");
+}
+
+
+@font-face{
+  font-family: "BodoniBoldItalic";
+  src: url("../fonts/BodoniFLF-Italic.woff") format("woff");
+}
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   font-weight: 200;
 }
 
@@ -100,13 +121,26 @@ body {
   color: #2c0032;
   font-family: 'Angelican', sans-serif;
 }
-
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75ch;
+}
 .navbar {
 
   color: #333333;
 
 }
 
+.btn {
+  background-color: #461251;
+  color: white;
+}
+
+.btn:hover{
+  color:#FFD700;
+}
 .navbar-image{
   padding-top: 20px;
 }
@@ -118,7 +152,8 @@ body {
 
 .navbar-nav li a {
   font-weight: 200;
-  font-family: 'Oswald', sans-serif;
+  color: Black !important;
+  font-family: 'BodoniNormal', sans-serif;
 
   font-size: 14px;
 }
@@ -144,7 +179,7 @@ body {
 
 .header-content h1 {
   padding-top: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   font-weight: lighter;
   font-size: 20px;
   letter-spacing: 10px;
@@ -155,7 +190,7 @@ body {
 
 .header-content h2 {
   padding-top: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   font-weight: lighter;
   font-size: 12px;
   letter-spacing: 10px;
@@ -205,6 +240,7 @@ body {
 }
 
 .sentence {
+  font-size: 18px;
   text-indent: 50px;
   text-align: justify;
 }
@@ -216,14 +252,14 @@ body {
   text-align: center;
   display: inline-block;
   letter-spacing: 2px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   font-size: 20px;
 }
 
 .btn-read-more:hover {
   color: 	#FFD700;
   border: 2px solid 	#FFD700;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   font-size: 20px;
 
 }
@@ -271,7 +307,7 @@ body {
 }
 
 .event-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   color: #333333;
 
 }
@@ -334,7 +370,7 @@ body {
 
 .news-title {
   color: #333333;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   color: #333333;
 
 
@@ -435,13 +471,13 @@ body {
   font-size: 30px;
   letter-spacing: 3px;
   color: #d79b2a;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   padding-top: 25%;
 
 }
 
 .navbar-footer span p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   padding-left: 3px;
   padding-right: 3px;
   display: inline-block;
@@ -451,7 +487,7 @@ body {
 }
 
 .navbar-footer span p:hover {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   color:	#FFD700;
 }
 
@@ -463,7 +499,7 @@ body {
 }
 
 .footer-community span p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   padding-left: 3px;
   padding-right: 3px;
   display: inline-block;
@@ -472,7 +508,7 @@ body {
   font-size: 12px;
 }
 .footer-community span p:hover{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BodoniNormal', sans-serif;
   color:	#FFD700;
 }
 
@@ -484,7 +520,7 @@ body {
 .index-news-title {
   font-size: 15px;
   text-overflow: ellips
-  font-family: 'Oswald', sans-serif;is;
+  font-family: 'BodoniNormal', sans-serif;is;
   text-align: justify;
   padding-bottom: 5px;
 }
