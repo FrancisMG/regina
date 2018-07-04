@@ -551,6 +551,16 @@ body {
   background-color: #d79b2a;
 
 }
+.hr-title2 {
+  padding-right: 250px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 100px;
+  border-width: 2px;
+  background-color: #d79b2a;
+
+}
+
 
 @media (min-width: 992px)  and (max-width: 1199.98px) {
   .header-span p {
